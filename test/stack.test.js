@@ -2,14 +2,14 @@
 const Stack = require('../src/stack.js');
 const expect = require('chai').expect;
 
-describe('test Stack', function() {
+describe('Stack', function() {
     let stack;
 
     beforeEach(function() {
         stack = new Stack();
     });
 
-    it('create Stack', function() {
+    it('new Stack()', function() {
         expect(stack).to.be.an.instanceof(Stack);
     });
 

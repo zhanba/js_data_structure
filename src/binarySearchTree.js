@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 function BinarySearchTree() {
     var Node = function(key) {

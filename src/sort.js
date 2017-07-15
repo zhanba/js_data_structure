@@ -156,3 +156,5 @@ function ArrayList() {
         quick(array, 0, array.length - 1);
     };
 }
+
+export default ArrayList;
